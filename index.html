@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casamento de Letícia e Lucas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Casamento de Letícia e Lucas</h1>
+    <img src="logo.png.jpg" alt="Logo do casamento" class="header__logo"style="max-width: 300px;">
+  </header>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#sobre" class="nav__link">Sobre Nós</a></li>
+      <li class="nav__item"><a href="#detalhes" class="nav__link">Detalhes</a></li>
+      <li class="nav__item"><a href="#rsvp" class="nav__link">Presença</a></li>
+      <li class="nav__item"><a href="#galeria" class="nav__link">Galeria</a></li>
+      <li class="nav__item"><a href="#presentes" class="nav__link">Presentes</a></li>
+      <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+    </ul>
+  </nav>
+  <section id="sobre" class="section">
+    <h2 class="section__title">Sobre Nós</h2>
+    <p class="section__content">Olá! Somos Letícia e Lucas, e estamos prestes a embarcar na jornada mais emocionante de nossas vidas juntos.</p>
+  </section>
+  <section id="detalhes" class="section">
+    <h2 class="section__title">Detalhes do Casamento</h2>
+    <p class="section__content"><strong>Data:</strong> 20/07/2024</p>
+    <p class="section__content"><strong>Local:</strong>Informaço~es no convite!</p>
+    <p class="section__content"><strong>Cores:</strong>A cor que você Preferir!</p>
+  </section>
+  <section id="rsvp" class="section">
+    <h2 class="section__title">Presença</h2>
+    <p class="section__content">Por favor, confirme sua presença até 20/06/2024 para que possamos planejar adequadamente.</p>
+    <form id="rsvpForm" class="rsvp__form">
+      <label for="nome" class="rsvp__label">Nome:</label>
+      <input type="text" id="nome" name="nome" class="rsvp__input" required>
+      <label for="email" class="rsvp__label">E-mail:</label>
+      <input type="email" id="email" name="email" class="rsvp__input" required>
+      <button type="submit" class="rsvp__button">Confirmar Presença</button>
+    </form>
+    <h2 class="section__title">Contagem regressiva</h2>
+    <div id="countdown" class="countdown"></div>
+  
+  </section>
+  <section id="galeria" class="section">
+    <h2 class="section__title">Galeria</h2>
+    <!-- Inserir fotos da galeria --> <img src="casamento.jpg" alt="fotos" style="max-width: 300px;">
+    <img src="foto.jpg"style="max-width: 300px;">
+    <img src="foto2.jpg" style="max-width: 300px;">
+  </section>
+  <section id="presentes" class="section">
+    <h2 class="section__title">Presentes</h2>
+    <p class="section__content">Embora sua presença seja o melhor presente que poderíamos pedir, se você deseja nos presentear, por favor, consulte nossa lista de desejos.</p>
+    <a href="#" class="section__link">Lista de Presentes</a>
+  </section>
+  <section id="contato" class="section">
+    <h2 class="section__title">Contate-nos</h2>
+    <p class="section__content">Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato conosco.</p>
+    <p class="section__content"><strong>E-mail:</strong> kamillyfreire00@gmail.com</p>
+    <p class="section__content"><strong>Telefone:</strong> 83 9-9943-1308</p>
+  </section>
+  <footer class="footer"> 
+    <p class="footer__text">Este site foi criado com amor por Kamilly Freire.</p>
+  </footer>
+  <script src="countdown.js"></script>
+</body>
+</html>
